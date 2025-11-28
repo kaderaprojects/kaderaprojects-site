@@ -54,3 +54,10 @@ footer {
     font-size: 0.9em;
     color: #555;
 }
+.post-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+}

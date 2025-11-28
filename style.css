@@ -62,12 +62,14 @@ footer {
   border-radius: 8px;
 }
 
-.top-right-logo {
+.hero-logo {
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 120px;       /* adjust size here */
+  width: 20%;         /* 20% of screen width ≈ 60–70% smaller */
+  max-width: 220px;   /* optional hard limit */
   height: auto;
-  opacity: 0.95;      /* optional: softens the look */
+  z-index: 999;
+  opacity: 0.98;
 }
 

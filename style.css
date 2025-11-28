@@ -61,3 +61,13 @@ footer {
   width: 100%;
   border-radius: 8px;
 }
+
+.top-right-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 120px;       /* adjust size here */
+  height: auto;
+  opacity: 0.95;      /* optional: softens the look */
+}
+

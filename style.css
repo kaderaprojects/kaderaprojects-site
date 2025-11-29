@@ -66,9 +66,9 @@ footer {
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 250px; 
+    width: 250px;
     height: auto;
-    z-index: 9999;
-    border-radius: 8px; /* optional: cleaner edges */
+    z-index: 999;
 }
+
 

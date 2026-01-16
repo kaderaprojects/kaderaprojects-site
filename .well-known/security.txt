@@ -1,0 +1,8 @@
+# security.txt for TheKader
+Contact: mailto:security@thekader.com
+Encryption: https://thekader.com/pgp-public-key.txt
+Acknowledgments: https://thekader.com/security.html#acknowledgements
+Preferred-Languages: en
+Canonical: https://thekader.com/security.html
+Policy: https://thekader.com/security.html
+# End of file

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Security — TheKader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">TheKader</div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/posts/welcome.html">Posts</a></li>
+      <li><a href="/privacy.html">Privacy</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="hero">
+  <h1>Security & Responsible Disclosure</h1>
+
+  <p>This site aims to be transparent about security practices and how to report vulnerabilities.</p>
+
+  <h2>How to report</h2>
+  <p>Please check <a href="/.well-known/security.txt">/.well-known/security.txt</a> for preferred contact methods. If you find a vulnerability, email <strong>security@thekader.com</strong> (PGP key available via the security.txt file) and include reproduction steps and any PoC.</p>
+
+  <h2>What we do</h2>
+  <ul>
+    <li>Respond within 7 business days to acknowledge reports.</li>
+    <li>Work privately with reporters to resolve issues before public disclosure.</li>
+    <li>Consider acknowledgements for responsible reports.</li>
+  </ul>
+
+  <h2>Recommended security headers (server-side)</h2>
+  <p>These are things we recommend enabling on the server for better protection:</p>
+  <ul>
+    <li><strong>Strict-Transport-Security</strong> (HSTS) — enforce HTTPS</li>
+    <li><strong>Content-Security-Policy</strong> (CSP) — restrict allowed sources</li>
+    <li><strong>Referrer-Policy</strong> — limit referrer leakage</li>
+    <li><strong>Permissions-Policy</strong> — disable unused powerful APIs</li>
+    <li><strong>X-Frame-Options</strong> — prevent clickjacking</li>
+  </ul>
+
+  <h2>Automated scans & badges</h2>
+  <p>Consider adding badges from automated scanning tools (Dependabot, Snyk, etc.) to increase trust. Those can be linked from this page.</p>
+  <div class="badges">
+    <a href="#" title="Dependabot report"><img class="badge" src="https://img.shields.io/badge/Dependabot-up_to_date-brightgreen.svg" alt="Dependabot status"></a>
+    <a href="#" title="Snyk report"><img class="badge" src="https://img.shields.io/badge/Snyk-clean-brightgreen.svg" alt="Snyk status"></a>
+    <a href="#" title="CodeQL report"><img class="badge" src="https://img.shields.io/badge/CodeQL-scan_passed-brightgreen.svg" alt="CodeQL status"></a>
+    <p class="small">Badges above are placeholders — replace links with your scanner report URLs.</p>
+  </div>
+
+  <h2>PGP / Encryption</h2>
+  <p>We accept encrypted reports. See the <a href="/.well-known/security.txt">security.txt</a> for a link to a PGP public key.</p>
+
+  <p class="small">Note: Security controls are enforced server-side; this page documents policy and contact info rather than replacing server configuration.</p>
+</main>
+
+<footer>
+  <p>© 2025 TheKader — <a href="/">Home</a></p>
+</footer>
+</body>
+</html>
